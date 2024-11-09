@@ -17,7 +17,7 @@ CSS file for Week 01 Homepage
 body {
     font-family: var(--paragraph-font);
     display: grid;
-    width: 940px;
+    width: 960px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -89,6 +89,7 @@ nav a:hover {
 main {
     position: relative;
     display: grid;
+    width: 960px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
