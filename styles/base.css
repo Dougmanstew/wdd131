@@ -89,8 +89,6 @@ nav a:hover {
 main {
     position: relative;
     display: grid;
-    width: 960px;
-    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
