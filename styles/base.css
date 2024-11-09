@@ -17,7 +17,7 @@ CSS file for Week 01 Homepage
 body {
     font-family: var(--paragraph-font);
     display: grid;
-    width: 960px;
+    width: 940px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -89,6 +89,7 @@ nav a:hover {
 main {
     position: relative;
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -97,7 +98,7 @@ main h2 {
     font-size: 1.6rem;
 }
 
-main img {
+section img {
     display: block;
     width: auto;
     height: auto;
@@ -133,6 +134,17 @@ aside div {
     display: flex;
     flex-direction: column;
 }
+
+aside img {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 16rem;
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
@@ -145,4 +157,3 @@ footer p {
     color: var(--secondary-color);
     margin: 1rem;
 }
-
